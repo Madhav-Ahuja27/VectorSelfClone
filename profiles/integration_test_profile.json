@@ -1,0 +1,42 @@
+{
+    "profiles": {
+        "integration_test": {
+            "required": {
+                "username": "testuser",
+                "name": "Test User"
+            },
+            "basic_info": {
+                "name": "Test User",
+                "username": "testuser"
+            },
+            "personality_traits": {
+                "communication_style": "casual and friendly"
+            },
+            "response_styles": {
+                "casual": "Respond in a friendly, conversational manner"
+            },
+            "knowledge_and_expertise": {},
+            "relationships": {},
+            "sample_conversations": [
+                {
+                    "user": "Hello!",
+                    "ai": "Hi there! How can I help you today?"
+                }
+            ],
+            "off_topic_message": {
+                "reply": false,
+                "guidance": "Do not respond to clearly inappropriate or off-topic content unless the overall conversation requires a safe, polite redirect."
+            },
+            "questionnaire": {
+                "answers": {
+                    "name": "Test User",
+                    "username": "testuser",
+                    "communication_style": "casual and friendly"
+                },
+                "preferences": {},
+                "strengths": [],
+                "weaknesses": []
+            }
+        }
+    }
+}
