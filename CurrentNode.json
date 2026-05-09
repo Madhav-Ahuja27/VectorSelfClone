@@ -1,0 +1,193 @@
+{
+  "node_id": "personality_profile",
+  "type": "personality_profile",
+  "title": "IPIP-NEO 120 Personality Profile",
+  "summary": "Personality profile generated from a local IPIP-NEO 120 assessment for assessment_user_assessment.",
+  "source": "personality_profile.json",
+  "created_at": "2026-05-09T17:04:27.668861+00:00",
+  "metadata": {
+    "username": "assessment_user",
+    "big5_scores": {
+      "openness": {
+        "score": "low",
+        "level": "low",
+        "facets": [
+          {
+            "trait": 1,
+            "imagination": 11.052821477566056,
+            "score": "low"
+          },
+          {
+            "trait": 2,
+            "artistic_interests": 22.613705845317554,
+            "score": "low"
+          },
+          {
+            "trait": 3,
+            "emotionality": 22.458638690321635,
+            "score": "low"
+          },
+          {
+            "trait": 4,
+            "adventurousness": 38.13496930040537,
+            "score": "low"
+          },
+          {
+            "trait": 5,
+            "intellect": 10.466949093943526,
+            "score": "low"
+          },
+          {
+            "trait": 6,
+            "liberalism": 53.250682139481455,
+            "score": "average"
+          }
+        ]
+      },
+      "conscientiousness": {
+        "score": "low",
+        "level": "low",
+        "facets": [
+          {
+            "trait": 1,
+            "self_efficacy": 4.796963023285045,
+            "score": "low"
+          },
+          {
+            "trait": 2,
+            "orderliness": 49.582294355477586,
+            "score": "average"
+          },
+          {
+            "trait": 3,
+            "dutifulness": 8.962940915860088,
+            "score": "low"
+          },
+          {
+            "trait": 4,
+            "achievement_striving": 17.361082426806604,
+            "score": "low"
+          },
+          {
+            "trait": 5,
+            "self_discipline": 36.497906883841324,
+            "score": "low"
+          },
+          {
+            "trait": 6,
+            "cautiousness": 38.524355262005315,
+            "score": "low"
+          }
+        ]
+      },
+      "extraversion": {
+        "score": "low",
+        "level": "low",
+        "facets": [
+          {
+            "trait": 1,
+            "friendliness": 37.84207122476397,
+            "score": "low"
+          },
+          {
+            "trait": 2,
+            "gregariousness": 55.874636258650355,
+            "score": "average"
+          },
+          {
+            "trait": 3,
+            "assertiveness": 25.365062122504668,
+            "score": "low"
+          },
+          {
+            "trait": 4,
+            "activity_level": 49.22875121111292,
+            "score": "average"
+          },
+          {
+            "trait": 5,
+            "excitement_seeking": 36.25782829248527,
+            "score": "low"
+          },
+          {
+            "trait": 6,
+            "cheerfulness": 27.560328329400278,
+            "score": "low"
+          }
+        ]
+      },
+      "agreeableness": {
+        "score": "low",
+        "level": "low",
+        "facets": [
+          {
+            "trait": 1,
+            "trust": 42.21642864021595,
+            "score": "low"
+          },
+          {
+            "trait": 2,
+            "morality": 11.125643466353438,
+            "score": "low"
+          },
+          {
+            "trait": 3,
+            "altruism": 13.086657062200459,
+            "score": "low"
+          },
+          {
+            "trait": 4,
+            "cooperation": 26.101491712885945,
+            "score": "low"
+          },
+          {
+            "trait": 5,
+            "modesty": 55.67124528467815,
+            "score": "average"
+          },
+          {
+            "trait": 6,
+            "sympathy": 31.274795822611225,
+            "score": "low"
+          }
+        ]
+      },
+      "neuroticism": {
+        "score": "high",
+        "level": "high",
+        "facets": [
+          {
+            "trait": 1,
+            "anxiety": 55.29153291804727,
+            "score": "average"
+          },
+          {
+            "trait": 2,
+            "anger": 52.068589887460575,
+            "score": "average"
+          },
+          {
+            "trait": 3,
+            "depression": 63.91248592040063,
+            "score": "high"
+          },
+          {
+            "trait": 4,
+            "self_consciousness": 48.97256425968396,
+            "score": "average"
+          },
+          {
+            "trait": 5,
+            "immoderation": 68.0270056015782,
+            "score": "high"
+          },
+          {
+            "trait": 6,
+            "vulnerability": 77.83259998736844,
+            "score": "high"
+          }
+        ]
+      }
+    }
+  }
+}

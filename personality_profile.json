@@ -1,0 +1,1905 @@
+{
+  "profile_name": "assessment_user_assessment",
+  "generated_at": "2026-05-09T17:04:27.654815+00:00",
+  "assessment_model": "IPIP-NEO",
+  "question_set": 120,
+  "user_info": {
+    "username": "assessment_user",
+    "name": "assessment_user",
+    "age": 30,
+    "gender": "M"
+  },
+  "result": {
+    "id": "1ad57c42-d2a9-454b-ae85-e7dbe0561e93",
+    "theory": "Big 5 Personality Traits",
+    "model": "IPIP-NEO",
+    "question": 120,
+    "test": false,
+    "person": {
+      "sex": "M",
+      "age": 30,
+      "result": {
+        "personalities": [
+          {
+            "openness": {
+              "O": 13.262383714475419,
+              "traits": [
+                {
+                  "trait": 1,
+                  "imagination": 11.052821477566056,
+                  "score": "low"
+                },
+                {
+                  "trait": 2,
+                  "artistic_interests": 22.613705845317554,
+                  "score": "low"
+                },
+                {
+                  "trait": 3,
+                  "emotionality": 22.458638690321635,
+                  "score": "low"
+                },
+                {
+                  "trait": 4,
+                  "adventurousness": 38.13496930040537,
+                  "score": "low"
+                },
+                {
+                  "trait": 5,
+                  "intellect": 10.466949093943526,
+                  "score": "low"
+                },
+                {
+                  "trait": 6,
+                  "liberalism": 53.250682139481455,
+                  "score": "average"
+                }
+              ],
+              "score": "low"
+            }
+          },
+          {
+            "conscientiousness": {
+              "C": 18.62283542366208,
+              "traits": [
+                {
+                  "trait": 1,
+                  "self_efficacy": 4.796963023285045,
+                  "score": "low"
+                },
+                {
+                  "trait": 2,
+                  "orderliness": 49.582294355477586,
+                  "score": "average"
+                },
+                {
+                  "trait": 3,
+                  "dutifulness": 8.962940915860088,
+                  "score": "low"
+                },
+                {
+                  "trait": 4,
+                  "achievement_striving": 17.361082426806604,
+                  "score": "low"
+                },
+                {
+                  "trait": 5,
+                  "self_discipline": 36.497906883841324,
+                  "score": "low"
+                },
+                {
+                  "trait": 6,
+                  "cautiousness": 38.524355262005315,
+                  "score": "low"
+                }
+              ],
+              "score": "low"
+            }
+          },
+          {
+            "extraversion": {
+              "E": 34.10779114957646,
+              "traits": [
+                {
+                  "trait": 1,
+                  "friendliness": 37.84207122476397,
+                  "score": "low"
+                },
+                {
+                  "trait": 2,
+                  "gregariousness": 55.874636258650355,
+                  "score": "average"
+                },
+                {
+                  "trait": 3,
+                  "assertiveness": 25.365062122504668,
+                  "score": "low"
+                },
+                {
+                  "trait": 4,
+                  "activity_level": 49.22875121111292,
+                  "score": "average"
+                },
+                {
+                  "trait": 5,
+                  "excitement_seeking": 36.25782829248527,
+                  "score": "low"
+                },
+                {
+                  "trait": 6,
+                  "cheerfulness": 27.560328329400278,
+                  "score": "low"
+                }
+              ],
+              "score": "low"
+            }
+          },
+          {
+            "agreeableness": {
+              "A": 18.998489537184838,
+              "traits": [
+                {
+                  "trait": 1,
+                  "trust": 42.21642864021595,
+                  "score": "low"
+                },
+                {
+                  "trait": 2,
+                  "morality": 11.125643466353438,
+                  "score": "low"
+                },
+                {
+                  "trait": 3,
+                  "altruism": 13.086657062200459,
+                  "score": "low"
+                },
+                {
+                  "trait": 4,
+                  "cooperation": 26.101491712885945,
+                  "score": "low"
+                },
+                {
+                  "trait": 5,
+                  "modesty": 55.67124528467815,
+                  "score": "average"
+                },
+                {
+                  "trait": 6,
+                  "sympathy": 31.274795822611225,
+                  "score": "low"
+                }
+              ],
+              "score": "low"
+            }
+          },
+          {
+            "neuroticism": {
+              "N": 64.97135872535557,
+              "traits": [
+                {
+                  "trait": 1,
+                  "anxiety": 55.29153291804727,
+                  "score": "average"
+                },
+                {
+                  "trait": 2,
+                  "anger": 52.068589887460575,
+                  "score": "average"
+                },
+                {
+                  "trait": 3,
+                  "depression": 63.91248592040063,
+                  "score": "high"
+                },
+                {
+                  "trait": 4,
+                  "self_consciousness": 48.97256425968396,
+                  "score": "average"
+                },
+                {
+                  "trait": 5,
+                  "immoderation": 68.0270056015782,
+                  "score": "high"
+                },
+                {
+                  "trait": 6,
+                  "vulnerability": 77.83259998736844,
+                  "score": "high"
+                }
+              ],
+              "score": "high"
+            }
+          }
+        ],
+        "compare": {
+          "user_answers_original": [
+            {
+              "id_question": 1,
+              "id_select": 3
+            },
+            {
+              "id_question": 2,
+              "id_select": 3
+            },
+            {
+              "id_question": 3,
+              "id_select": 3
+            },
+            {
+              "id_question": 4,
+              "id_select": 3
+            },
+            {
+              "id_question": 5,
+              "id_select": 3
+            },
+            {
+              "id_question": 6,
+              "id_select": 3
+            },
+            {
+              "id_question": 7,
+              "id_select": 3
+            },
+            {
+              "id_question": 8,
+              "id_select": 3
+            },
+            {
+              "id_question": 9,
+              "id_select": 3
+            },
+            {
+              "id_question": 10,
+              "id_select": 3
+            },
+            {
+              "id_question": 11,
+              "id_select": 3
+            },
+            {
+              "id_question": 12,
+              "id_select": 3
+            },
+            {
+              "id_question": 13,
+              "id_select": 3
+            },
+            {
+              "id_question": 14,
+              "id_select": 3
+            },
+            {
+              "id_question": 15,
+              "id_select": 3
+            },
+            {
+              "id_question": 16,
+              "id_select": 3
+            },
+            {
+              "id_question": 17,
+              "id_select": 3
+            },
+            {
+              "id_question": 18,
+              "id_select": 3
+            },
+            {
+              "id_question": 19,
+              "id_select": 3
+            },
+            {
+              "id_question": 20,
+              "id_select": 3
+            },
+            {
+              "id_question": 21,
+              "id_select": 5
+            },
+            {
+              "id_question": 22,
+              "id_select": 3
+            },
+            {
+              "id_question": 23,
+              "id_select": 3
+            },
+            {
+              "id_question": 24,
+              "id_select": 3
+            },
+            {
+              "id_question": 25,
+              "id_select": 3
+            },
+            {
+              "id_question": 26,
+              "id_select": 3
+            },
+            {
+              "id_question": 27,
+              "id_select": 3
+            },
+            {
+              "id_question": 28,
+              "id_select": 3
+            },
+            {
+              "id_question": 29,
+              "id_select": 3
+            },
+            {
+              "id_question": 30,
+              "id_select": 3
+            },
+            {
+              "id_question": 31,
+              "id_select": 3
+            },
+            {
+              "id_question": 32,
+              "id_select": 3
+            },
+            {
+              "id_question": 33,
+              "id_select": 3
+            },
+            {
+              "id_question": 34,
+              "id_select": 3
+            },
+            {
+              "id_question": 35,
+              "id_select": 3
+            },
+            {
+              "id_question": 36,
+              "id_select": 3
+            },
+            {
+              "id_question": 37,
+              "id_select": 3
+            },
+            {
+              "id_question": 38,
+              "id_select": 3
+            },
+            {
+              "id_question": 39,
+              "id_select": 3
+            },
+            {
+              "id_question": 40,
+              "id_select": 3
+            },
+            {
+              "id_question": 41,
+              "id_select": 3
+            },
+            {
+              "id_question": 42,
+              "id_select": 3
+            },
+            {
+              "id_question": 43,
+              "id_select": 3
+            },
+            {
+              "id_question": 44,
+              "id_select": 3
+            },
+            {
+              "id_question": 45,
+              "id_select": 3
+            },
+            {
+              "id_question": 46,
+              "id_select": 3
+            },
+            {
+              "id_question": 47,
+              "id_select": 3
+            },
+            {
+              "id_question": 48,
+              "id_select": 3
+            },
+            {
+              "id_question": 49,
+              "id_select": 3
+            },
+            {
+              "id_question": 50,
+              "id_select": 3
+            },
+            {
+              "id_question": 51,
+              "id_select": 3
+            },
+            {
+              "id_question": 52,
+              "id_select": 3
+            },
+            {
+              "id_question": 53,
+              "id_select": 3
+            },
+            {
+              "id_question": 54,
+              "id_select": 3
+            },
+            {
+              "id_question": 55,
+              "id_select": 3
+            },
+            {
+              "id_question": 56,
+              "id_select": 3
+            },
+            {
+              "id_question": 57,
+              "id_select": 3
+            },
+            {
+              "id_question": 58,
+              "id_select": 3
+            },
+            {
+              "id_question": 59,
+              "id_select": 3
+            },
+            {
+              "id_question": 60,
+              "id_select": 3
+            },
+            {
+              "id_question": 61,
+              "id_select": 3
+            },
+            {
+              "id_question": 62,
+              "id_select": 3
+            },
+            {
+              "id_question": 63,
+              "id_select": 3
+            },
+            {
+              "id_question": 64,
+              "id_select": 3
+            },
+            {
+              "id_question": 65,
+              "id_select": 3
+            },
+            {
+              "id_question": 66,
+              "id_select": 3
+            },
+            {
+              "id_question": 67,
+              "id_select": 3
+            },
+            {
+              "id_question": 68,
+              "id_select": 3
+            },
+            {
+              "id_question": 69,
+              "id_select": 3
+            },
+            {
+              "id_question": 70,
+              "id_select": 3
+            },
+            {
+              "id_question": 71,
+              "id_select": 3
+            },
+            {
+              "id_question": 72,
+              "id_select": 3
+            },
+            {
+              "id_question": 73,
+              "id_select": 3
+            },
+            {
+              "id_question": 74,
+              "id_select": 3
+            },
+            {
+              "id_question": 75,
+              "id_select": 3
+            },
+            {
+              "id_question": 76,
+              "id_select": 3
+            },
+            {
+              "id_question": 77,
+              "id_select": 3
+            },
+            {
+              "id_question": 78,
+              "id_select": 3
+            },
+            {
+              "id_question": 79,
+              "id_select": 3
+            },
+            {
+              "id_question": 80,
+              "id_select": 3
+            },
+            {
+              "id_question": 81,
+              "id_select": 3
+            },
+            {
+              "id_question": 82,
+              "id_select": 3
+            },
+            {
+              "id_question": 83,
+              "id_select": 3
+            },
+            {
+              "id_question": 84,
+              "id_select": 3
+            },
+            {
+              "id_question": 85,
+              "id_select": 3
+            },
+            {
+              "id_question": 86,
+              "id_select": 3
+            },
+            {
+              "id_question": 87,
+              "id_select": 3
+            },
+            {
+              "id_question": 88,
+              "id_select": 3
+            },
+            {
+              "id_question": 89,
+              "id_select": 3
+            },
+            {
+              "id_question": 90,
+              "id_select": 3
+            },
+            {
+              "id_question": 91,
+              "id_select": 3
+            },
+            {
+              "id_question": 92,
+              "id_select": 3
+            },
+            {
+              "id_question": 93,
+              "id_select": 3
+            },
+            {
+              "id_question": 94,
+              "id_select": 3
+            },
+            {
+              "id_question": 95,
+              "id_select": 3
+            },
+            {
+              "id_question": 96,
+              "id_select": 3
+            },
+            {
+              "id_question": 97,
+              "id_select": 3
+            },
+            {
+              "id_question": 98,
+              "id_select": 3
+            },
+            {
+              "id_question": 99,
+              "id_select": 3
+            },
+            {
+              "id_question": 100,
+              "id_select": 3
+            },
+            {
+              "id_question": 101,
+              "id_select": 3
+            },
+            {
+              "id_question": 102,
+              "id_select": 3
+            },
+            {
+              "id_question": 103,
+              "id_select": 3
+            },
+            {
+              "id_question": 104,
+              "id_select": 3
+            },
+            {
+              "id_question": 105,
+              "id_select": 3
+            },
+            {
+              "id_question": 106,
+              "id_select": 3
+            },
+            {
+              "id_question": 107,
+              "id_select": 3
+            },
+            {
+              "id_question": 108,
+              "id_select": 3
+            },
+            {
+              "id_question": 109,
+              "id_select": 3
+            },
+            {
+              "id_question": 110,
+              "id_select": 3
+            },
+            {
+              "id_question": 111,
+              "id_select": 3
+            },
+            {
+              "id_question": 112,
+              "id_select": 3
+            },
+            {
+              "id_question": 113,
+              "id_select": 3
+            },
+            {
+              "id_question": 114,
+              "id_select": 3
+            },
+            {
+              "id_question": 115,
+              "id_select": 3
+            },
+            {
+              "id_question": 116,
+              "id_select": 3
+            },
+            {
+              "id_question": 117,
+              "id_select": 3
+            },
+            {
+              "id_question": 118,
+              "id_select": 3
+            },
+            {
+              "id_question": 119,
+              "id_select": 3
+            },
+            {
+              "id_question": 120,
+              "id_select": 3
+            }
+          ],
+          "user_answers_reversed": [
+            {
+              "id_question": 1,
+              "id_select": 3
+            },
+            {
+              "id_question": 2,
+              "id_select": 3
+            },
+            {
+              "id_question": 3,
+              "id_select": 3
+            },
+            {
+              "id_question": 4,
+              "id_select": 3
+            },
+            {
+              "id_question": 5,
+              "id_select": 3
+            },
+            {
+              "id_question": 6,
+              "id_select": 3
+            },
+            {
+              "id_question": 7,
+              "id_select": 3
+            },
+            {
+              "id_question": 8,
+              "id_select": 3
+            },
+            {
+              "id_question": 9,
+              "id_select": 3
+            },
+            {
+              "id_question": 10,
+              "id_select": 3
+            },
+            {
+              "id_question": 11,
+              "id_select": 3
+            },
+            {
+              "id_question": 12,
+              "id_select": 3
+            },
+            {
+              "id_question": 13,
+              "id_select": 3
+            },
+            {
+              "id_question": 14,
+              "id_select": 3
+            },
+            {
+              "id_question": 15,
+              "id_select": 3
+            },
+            {
+              "id_question": 16,
+              "id_select": 3
+            },
+            {
+              "id_question": 17,
+              "id_select": 3
+            },
+            {
+              "id_question": 18,
+              "id_select": 3
+            },
+            {
+              "id_question": 19,
+              "id_select": 3
+            },
+            {
+              "id_question": 20,
+              "id_select": 3
+            },
+            {
+              "id_question": 21,
+              "id_select": 5
+            },
+            {
+              "id_question": 22,
+              "id_select": 3
+            },
+            {
+              "id_question": 23,
+              "id_select": 3
+            },
+            {
+              "id_question": 24,
+              "id_select": 3
+            },
+            {
+              "id_question": 25,
+              "id_select": 3
+            },
+            {
+              "id_question": 26,
+              "id_select": 3
+            },
+            {
+              "id_question": 27,
+              "id_select": 3
+            },
+            {
+              "id_question": 28,
+              "id_select": 3
+            },
+            {
+              "id_question": 29,
+              "id_select": 3
+            },
+            {
+              "id_question": 30,
+              "id_select": 3
+            },
+            {
+              "id_question": 31,
+              "id_select": 3
+            },
+            {
+              "id_question": 32,
+              "id_select": 3
+            },
+            {
+              "id_question": 33,
+              "id_select": 3
+            },
+            {
+              "id_question": 34,
+              "id_select": 3
+            },
+            {
+              "id_question": 35,
+              "id_select": 3
+            },
+            {
+              "id_question": 36,
+              "id_select": 3
+            },
+            {
+              "id_question": 37,
+              "id_select": 3
+            },
+            {
+              "id_question": 38,
+              "id_select": 3
+            },
+            {
+              "id_question": 39,
+              "id_select": 3
+            },
+            {
+              "id_question": 40,
+              "id_select": 3
+            },
+            {
+              "id_question": 41,
+              "id_select": 3
+            },
+            {
+              "id_question": 42,
+              "id_select": 3
+            },
+            {
+              "id_question": 43,
+              "id_select": 3
+            },
+            {
+              "id_question": 44,
+              "id_select": 3
+            },
+            {
+              "id_question": 45,
+              "id_select": 3
+            },
+            {
+              "id_question": 46,
+              "id_select": 3
+            },
+            {
+              "id_question": 47,
+              "id_select": 3
+            },
+            {
+              "id_question": 48,
+              "id_select": 3
+            },
+            {
+              "id_question": 49,
+              "id_select": 3
+            },
+            {
+              "id_question": 50,
+              "id_select": 3
+            },
+            {
+              "id_question": 51,
+              "id_select": 3
+            },
+            {
+              "id_question": 52,
+              "id_select": 3
+            },
+            {
+              "id_question": 53,
+              "id_select": 3
+            },
+            {
+              "id_question": 54,
+              "id_select": 3
+            },
+            {
+              "id_question": 55,
+              "id_select": 3
+            },
+            {
+              "id_question": 56,
+              "id_select": 3
+            },
+            {
+              "id_question": 57,
+              "id_select": 3
+            },
+            {
+              "id_question": 58,
+              "id_select": 3
+            },
+            {
+              "id_question": 59,
+              "id_select": 3
+            },
+            {
+              "id_question": 60,
+              "id_select": 3
+            },
+            {
+              "id_question": 61,
+              "id_select": 3
+            },
+            {
+              "id_question": 62,
+              "id_select": 3
+            },
+            {
+              "id_question": 63,
+              "id_select": 3
+            },
+            {
+              "id_question": 64,
+              "id_select": 3
+            },
+            {
+              "id_question": 65,
+              "id_select": 3
+            },
+            {
+              "id_question": 66,
+              "id_select": 3
+            },
+            {
+              "id_question": 67,
+              "id_select": 3
+            },
+            {
+              "id_question": 68,
+              "id_select": 3
+            },
+            {
+              "id_question": 69,
+              "id_select": 3
+            },
+            {
+              "id_question": 70,
+              "id_select": 3
+            },
+            {
+              "id_question": 71,
+              "id_select": 3
+            },
+            {
+              "id_question": 72,
+              "id_select": 3
+            },
+            {
+              "id_question": 73,
+              "id_select": 3
+            },
+            {
+              "id_question": 74,
+              "id_select": 3
+            },
+            {
+              "id_question": 75,
+              "id_select": 3
+            },
+            {
+              "id_question": 76,
+              "id_select": 3
+            },
+            {
+              "id_question": 77,
+              "id_select": 3
+            },
+            {
+              "id_question": 78,
+              "id_select": 3
+            },
+            {
+              "id_question": 79,
+              "id_select": 3
+            },
+            {
+              "id_question": 80,
+              "id_select": 3
+            },
+            {
+              "id_question": 81,
+              "id_select": 3
+            },
+            {
+              "id_question": 82,
+              "id_select": 3
+            },
+            {
+              "id_question": 83,
+              "id_select": 3
+            },
+            {
+              "id_question": 84,
+              "id_select": 3
+            },
+            {
+              "id_question": 85,
+              "id_select": 3
+            },
+            {
+              "id_question": 86,
+              "id_select": 3
+            },
+            {
+              "id_question": 87,
+              "id_select": 3
+            },
+            {
+              "id_question": 88,
+              "id_select": 3
+            },
+            {
+              "id_question": 89,
+              "id_select": 3
+            },
+            {
+              "id_question": 90,
+              "id_select": 3
+            },
+            {
+              "id_question": 91,
+              "id_select": 3
+            },
+            {
+              "id_question": 92,
+              "id_select": 3
+            },
+            {
+              "id_question": 93,
+              "id_select": 3
+            },
+            {
+              "id_question": 94,
+              "id_select": 3
+            },
+            {
+              "id_question": 95,
+              "id_select": 3
+            },
+            {
+              "id_question": 96,
+              "id_select": 3
+            },
+            {
+              "id_question": 97,
+              "id_select": 3
+            },
+            {
+              "id_question": 98,
+              "id_select": 3
+            },
+            {
+              "id_question": 99,
+              "id_select": 3
+            },
+            {
+              "id_question": 100,
+              "id_select": 3
+            },
+            {
+              "id_question": 101,
+              "id_select": 3
+            },
+            {
+              "id_question": 102,
+              "id_select": 3
+            },
+            {
+              "id_question": 103,
+              "id_select": 3
+            },
+            {
+              "id_question": 104,
+              "id_select": 3
+            },
+            {
+              "id_question": 105,
+              "id_select": 3
+            },
+            {
+              "id_question": 106,
+              "id_select": 3
+            },
+            {
+              "id_question": 107,
+              "id_select": 3
+            },
+            {
+              "id_question": 108,
+              "id_select": 3
+            },
+            {
+              "id_question": 109,
+              "id_select": 3
+            },
+            {
+              "id_question": 110,
+              "id_select": 3
+            },
+            {
+              "id_question": 111,
+              "id_select": 3
+            },
+            {
+              "id_question": 112,
+              "id_select": 3
+            },
+            {
+              "id_question": 113,
+              "id_select": 3
+            },
+            {
+              "id_question": 114,
+              "id_select": 3
+            },
+            {
+              "id_question": 115,
+              "id_select": 3
+            },
+            {
+              "id_question": 116,
+              "id_select": 3
+            },
+            {
+              "id_question": 117,
+              "id_select": 3
+            },
+            {
+              "id_question": 118,
+              "id_select": 3
+            },
+            {
+              "id_question": 119,
+              "id_select": 3
+            },
+            {
+              "id_question": 120,
+              "id_select": 3
+            }
+          ]
+        }
+      }
+    },
+    "library": "five-factor-e",
+    "version": "1.13.1",
+    "date": "2026-05-09 22:34:27"
+  },
+  "profile": {
+    "required": {
+      "username": "assessment_user",
+      "name": "assessment_user"
+    },
+    "basic_info": {
+      "Age": "30",
+      "Gender": "M"
+    },
+    "personality_traits": {
+      "Openness": "Practical, conventional, and focused on familiar experiences.",
+      "Conscientiousness": "Flexible, spontaneous, and comfortable with ambiguity.",
+      "Extraversion": "Reserved, introspective, and thoughtful in social settings.",
+      "Agreeableness": "Direct, independent, and comfortable challenging ideas.",
+      "Neuroticism": "Emotionally sensitive and aware of potential stressors."
+    },
+    "response_styles": {
+      "Preferred Tone": "Calm, reflective, and gentle. Communicative style may be direct and honest.",
+      "Empathy Level": "Adapt responses to maintain warmth and clarity.",
+      "Pacing": "Keep responses concise and thoughtful unless more detail is requested."
+    },
+    "knowledge_and_expertise": {
+      "Assessment Method": "IPIP-NEO 120 question personality inventory",
+      "Use Case": "Persona generation for AI response style and relationship modeling."
+    },
+    "relationships": {
+      "Personalization Approach": "Use personality profile and preferences to make recommendations more relevant."
+    },
+    "sample_conversations": [
+      {
+        "user": "Hello, can you tell me something about my personality?",
+        "ai": "Based on your assessment, you tend to be curious, thoughtful, and balanced. I can keep the tone warm and supportive while staying focused."
+      }
+    ],
+    "off_topic_message": {
+      "reply": false,
+      "guidance": "If conversation becomes inappropriate or off-topic, answer politely but steer back to meaningful, helpful dialogue."
+    },
+    "questionnaire": {
+      "answers": {
+        "question_set": 120,
+        "responses": [
+          {
+            "id_question": 1,
+            "id_select": 3
+          },
+          {
+            "id_question": 2,
+            "id_select": 3
+          },
+          {
+            "id_question": 3,
+            "id_select": 3
+          },
+          {
+            "id_question": 4,
+            "id_select": 3
+          },
+          {
+            "id_question": 5,
+            "id_select": 3
+          },
+          {
+            "id_question": 6,
+            "id_select": 3
+          },
+          {
+            "id_question": 7,
+            "id_select": 3
+          },
+          {
+            "id_question": 8,
+            "id_select": 3
+          },
+          {
+            "id_question": 9,
+            "id_select": 3
+          },
+          {
+            "id_question": 10,
+            "id_select": 3
+          },
+          {
+            "id_question": 11,
+            "id_select": 3
+          },
+          {
+            "id_question": 12,
+            "id_select": 3
+          },
+          {
+            "id_question": 13,
+            "id_select": 3
+          },
+          {
+            "id_question": 14,
+            "id_select": 3
+          },
+          {
+            "id_question": 15,
+            "id_select": 3
+          },
+          {
+            "id_question": 16,
+            "id_select": 3
+          },
+          {
+            "id_question": 17,
+            "id_select": 3
+          },
+          {
+            "id_question": 18,
+            "id_select": 3
+          },
+          {
+            "id_question": 19,
+            "id_select": 3
+          },
+          {
+            "id_question": 20,
+            "id_select": 3
+          },
+          {
+            "id_question": 21,
+            "id_select": 5
+          },
+          {
+            "id_question": 22,
+            "id_select": 3
+          },
+          {
+            "id_question": 23,
+            "id_select": 3
+          },
+          {
+            "id_question": 24,
+            "id_select": 3
+          },
+          {
+            "id_question": 25,
+            "id_select": 3
+          },
+          {
+            "id_question": 26,
+            "id_select": 3
+          },
+          {
+            "id_question": 27,
+            "id_select": 3
+          },
+          {
+            "id_question": 28,
+            "id_select": 3
+          },
+          {
+            "id_question": 29,
+            "id_select": 3
+          },
+          {
+            "id_question": 30,
+            "id_select": 3
+          },
+          {
+            "id_question": 31,
+            "id_select": 3
+          },
+          {
+            "id_question": 32,
+            "id_select": 3
+          },
+          {
+            "id_question": 33,
+            "id_select": 3
+          },
+          {
+            "id_question": 34,
+            "id_select": 3
+          },
+          {
+            "id_question": 35,
+            "id_select": 3
+          },
+          {
+            "id_question": 36,
+            "id_select": 3
+          },
+          {
+            "id_question": 37,
+            "id_select": 3
+          },
+          {
+            "id_question": 38,
+            "id_select": 3
+          },
+          {
+            "id_question": 39,
+            "id_select": 3
+          },
+          {
+            "id_question": 40,
+            "id_select": 3
+          },
+          {
+            "id_question": 41,
+            "id_select": 3
+          },
+          {
+            "id_question": 42,
+            "id_select": 3
+          },
+          {
+            "id_question": 43,
+            "id_select": 3
+          },
+          {
+            "id_question": 44,
+            "id_select": 3
+          },
+          {
+            "id_question": 45,
+            "id_select": 3
+          },
+          {
+            "id_question": 46,
+            "id_select": 3
+          },
+          {
+            "id_question": 47,
+            "id_select": 3
+          },
+          {
+            "id_question": 48,
+            "id_select": 3
+          },
+          {
+            "id_question": 49,
+            "id_select": 3
+          },
+          {
+            "id_question": 50,
+            "id_select": 3
+          },
+          {
+            "id_question": 51,
+            "id_select": 3
+          },
+          {
+            "id_question": 52,
+            "id_select": 3
+          },
+          {
+            "id_question": 53,
+            "id_select": 3
+          },
+          {
+            "id_question": 54,
+            "id_select": 3
+          },
+          {
+            "id_question": 55,
+            "id_select": 3
+          },
+          {
+            "id_question": 56,
+            "id_select": 3
+          },
+          {
+            "id_question": 57,
+            "id_select": 3
+          },
+          {
+            "id_question": 58,
+            "id_select": 3
+          },
+          {
+            "id_question": 59,
+            "id_select": 3
+          },
+          {
+            "id_question": 60,
+            "id_select": 3
+          },
+          {
+            "id_question": 61,
+            "id_select": 3
+          },
+          {
+            "id_question": 62,
+            "id_select": 3
+          },
+          {
+            "id_question": 63,
+            "id_select": 3
+          },
+          {
+            "id_question": 64,
+            "id_select": 3
+          },
+          {
+            "id_question": 65,
+            "id_select": 3
+          },
+          {
+            "id_question": 66,
+            "id_select": 3
+          },
+          {
+            "id_question": 67,
+            "id_select": 3
+          },
+          {
+            "id_question": 68,
+            "id_select": 3
+          },
+          {
+            "id_question": 69,
+            "id_select": 3
+          },
+          {
+            "id_question": 70,
+            "id_select": 3
+          },
+          {
+            "id_question": 71,
+            "id_select": 3
+          },
+          {
+            "id_question": 72,
+            "id_select": 3
+          },
+          {
+            "id_question": 73,
+            "id_select": 3
+          },
+          {
+            "id_question": 74,
+            "id_select": 3
+          },
+          {
+            "id_question": 75,
+            "id_select": 3
+          },
+          {
+            "id_question": 76,
+            "id_select": 3
+          },
+          {
+            "id_question": 77,
+            "id_select": 3
+          },
+          {
+            "id_question": 78,
+            "id_select": 3
+          },
+          {
+            "id_question": 79,
+            "id_select": 3
+          },
+          {
+            "id_question": 80,
+            "id_select": 3
+          },
+          {
+            "id_question": 81,
+            "id_select": 3
+          },
+          {
+            "id_question": 82,
+            "id_select": 3
+          },
+          {
+            "id_question": 83,
+            "id_select": 3
+          },
+          {
+            "id_question": 84,
+            "id_select": 3
+          },
+          {
+            "id_question": 85,
+            "id_select": 3
+          },
+          {
+            "id_question": 86,
+            "id_select": 3
+          },
+          {
+            "id_question": 87,
+            "id_select": 3
+          },
+          {
+            "id_question": 88,
+            "id_select": 3
+          },
+          {
+            "id_question": 89,
+            "id_select": 3
+          },
+          {
+            "id_question": 90,
+            "id_select": 3
+          },
+          {
+            "id_question": 91,
+            "id_select": 3
+          },
+          {
+            "id_question": 92,
+            "id_select": 3
+          },
+          {
+            "id_question": 93,
+            "id_select": 3
+          },
+          {
+            "id_question": 94,
+            "id_select": 3
+          },
+          {
+            "id_question": 95,
+            "id_select": 3
+          },
+          {
+            "id_question": 96,
+            "id_select": 3
+          },
+          {
+            "id_question": 97,
+            "id_select": 3
+          },
+          {
+            "id_question": 98,
+            "id_select": 3
+          },
+          {
+            "id_question": 99,
+            "id_select": 3
+          },
+          {
+            "id_question": 100,
+            "id_select": 3
+          },
+          {
+            "id_question": 101,
+            "id_select": 3
+          },
+          {
+            "id_question": 102,
+            "id_select": 3
+          },
+          {
+            "id_question": 103,
+            "id_select": 3
+          },
+          {
+            "id_question": 104,
+            "id_select": 3
+          },
+          {
+            "id_question": 105,
+            "id_select": 3
+          },
+          {
+            "id_question": 106,
+            "id_select": 3
+          },
+          {
+            "id_question": 107,
+            "id_select": 3
+          },
+          {
+            "id_question": 108,
+            "id_select": 3
+          },
+          {
+            "id_question": 109,
+            "id_select": 3
+          },
+          {
+            "id_question": 110,
+            "id_select": 3
+          },
+          {
+            "id_question": 111,
+            "id_select": 3
+          },
+          {
+            "id_question": 112,
+            "id_select": 3
+          },
+          {
+            "id_question": 113,
+            "id_select": 3
+          },
+          {
+            "id_question": 114,
+            "id_select": 3
+          },
+          {
+            "id_question": 115,
+            "id_select": 3
+          },
+          {
+            "id_question": 116,
+            "id_select": 3
+          },
+          {
+            "id_question": 117,
+            "id_select": 3
+          },
+          {
+            "id_question": 118,
+            "id_select": 3
+          },
+          {
+            "id_question": 119,
+            "id_select": 3
+          },
+          {
+            "id_question": 120,
+            "id_select": 3
+          }
+        ]
+      },
+      "summary": {
+        "model": "IPIP-NEO",
+        "question_set": 120,
+        "generated_at": "2026-05-09T17:04:27.643305+00:00"
+      },
+      "big5_scores": {
+        "openness": {
+          "score": "low",
+          "level": "low",
+          "facets": [
+            {
+              "trait": 1,
+              "imagination": 11.052821477566056,
+              "score": "low"
+            },
+            {
+              "trait": 2,
+              "artistic_interests": 22.613705845317554,
+              "score": "low"
+            },
+            {
+              "trait": 3,
+              "emotionality": 22.458638690321635,
+              "score": "low"
+            },
+            {
+              "trait": 4,
+              "adventurousness": 38.13496930040537,
+              "score": "low"
+            },
+            {
+              "trait": 5,
+              "intellect": 10.466949093943526,
+              "score": "low"
+            },
+            {
+              "trait": 6,
+              "liberalism": 53.250682139481455,
+              "score": "average"
+            }
+          ]
+        },
+        "conscientiousness": {
+          "score": "low",
+          "level": "low",
+          "facets": [
+            {
+              "trait": 1,
+              "self_efficacy": 4.796963023285045,
+              "score": "low"
+            },
+            {
+              "trait": 2,
+              "orderliness": 49.582294355477586,
+              "score": "average"
+            },
+            {
+              "trait": 3,
+              "dutifulness": 8.962940915860088,
+              "score": "low"
+            },
+            {
+              "trait": 4,
+              "achievement_striving": 17.361082426806604,
+              "score": "low"
+            },
+            {
+              "trait": 5,
+              "self_discipline": 36.497906883841324,
+              "score": "low"
+            },
+            {
+              "trait": 6,
+              "cautiousness": 38.524355262005315,
+              "score": "low"
+            }
+          ]
+        },
+        "extraversion": {
+          "score": "low",
+          "level": "low",
+          "facets": [
+            {
+              "trait": 1,
+              "friendliness": 37.84207122476397,
+              "score": "low"
+            },
+            {
+              "trait": 2,
+              "gregariousness": 55.874636258650355,
+              "score": "average"
+            },
+            {
+              "trait": 3,
+              "assertiveness": 25.365062122504668,
+              "score": "low"
+            },
+            {
+              "trait": 4,
+              "activity_level": 49.22875121111292,
+              "score": "average"
+            },
+            {
+              "trait": 5,
+              "excitement_seeking": 36.25782829248527,
+              "score": "low"
+            },
+            {
+              "trait": 6,
+              "cheerfulness": 27.560328329400278,
+              "score": "low"
+            }
+          ]
+        },
+        "agreeableness": {
+          "score": "low",
+          "level": "low",
+          "facets": [
+            {
+              "trait": 1,
+              "trust": 42.21642864021595,
+              "score": "low"
+            },
+            {
+              "trait": 2,
+              "morality": 11.125643466353438,
+              "score": "low"
+            },
+            {
+              "trait": 3,
+              "altruism": 13.086657062200459,
+              "score": "low"
+            },
+            {
+              "trait": 4,
+              "cooperation": 26.101491712885945,
+              "score": "low"
+            },
+            {
+              "trait": 5,
+              "modesty": 55.67124528467815,
+              "score": "average"
+            },
+            {
+              "trait": 6,
+              "sympathy": 31.274795822611225,
+              "score": "low"
+            }
+          ]
+        },
+        "neuroticism": {
+          "score": "high",
+          "level": "high",
+          "facets": [
+            {
+              "trait": 1,
+              "anxiety": 55.29153291804727,
+              "score": "average"
+            },
+            {
+              "trait": 2,
+              "anger": 52.068589887460575,
+              "score": "average"
+            },
+            {
+              "trait": 3,
+              "depression": 63.91248592040063,
+              "score": "high"
+            },
+            {
+              "trait": 4,
+              "self_consciousness": 48.97256425968396,
+              "score": "average"
+            },
+            {
+              "trait": 5,
+              "immoderation": 68.0270056015782,
+              "score": "high"
+            },
+            {
+              "trait": 6,
+              "vulnerability": 77.83259998736844,
+              "score": "high"
+            }
+          ]
+        }
+      }
+    },
+    "assessment_metadata": {
+      "model": "IPIP-NEO",
+      "version": "1.13.1",
+      "sex": "M",
+      "age": 30
+    }
+  }
+}

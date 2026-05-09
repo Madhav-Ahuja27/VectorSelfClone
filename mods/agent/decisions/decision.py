@@ -2757,10 +2757,27 @@ You excel at distinguishing between valuable personal facts, temporary conversat
             
             return None
 
+        def load_personality_profile() -> Optional[Dict[str, Any]]:
+            """Load a local personality profile JSON if it exists."""
+            candidate_paths = [
+                Path("personality_profile.json"),
+                Path("profiles") / "personality_profile.json",
+                Path("data") / "personality_profile.json",
+            ]
+            for candidate in candidate_paths:
+                if candidate.exists():
+                    try:
+                        with open(candidate, 'r', encoding='utf-8') as stream:
+                            return json.load(stream)
+                    except Exception as e:
+                        self.logger.error(f"Error loading personality profile from {candidate}: {e}")
+            return None
+
         def construct_enhanced_memory_retrieval_prompt(
             message: "Message",
             person: Person,
             user_memories: Dict[str, Any],
+            personality_profile: Optional[Dict[str, Any]],
             extra_context: Optional[str]
         ) -> str:
             """Construct an enhanced prompt for retrieving and scoring relevant memories."""
@@ -2779,6 +2796,31 @@ You excel at distinguishing between valuable personal facts, temporary conversat
             
             recent_memories = user_memories.get("memories", [])[-5:] if user_memories.get("memories") else []
             
+            personality_summary = {}
+            personality_context_text = ""
+            if personality_profile:
+                major_traits = {}
+                personalities = personality_profile.get("result", {}).get("person", {}).get("result", {}).get("personalities", [])
+                if isinstance(personalities, list):
+                    for personality in personalities:
+                        if isinstance(personality, dict):
+                            for trait, data in personality.items():
+                                if isinstance(data, dict):
+                                    major_traits[trait] = data.get("level", data.get("score"))
+
+                personality_summary = {
+                    "profile_name": personality_profile.get("profile_name"),
+                    "assessment_model": personality_profile.get("assessment_model"),
+                    "question_set": personality_profile.get("question_set"),
+                    "user_info": personality_profile.get("user_info", {}),
+                    "major_traits": major_traits,
+                }
+                personality_context_text = (
+                    "### PERSONALITY PROFILE CONTEXT\n```json\n"
+                    + json.dumps(personality_summary, indent=2)
+                    + "\n```\n"
+                )
+
             system_role = f"""# ENHANCED MEMORY RELEVANCE & GUIDANCE SYSTEM
 
 ## YOUR ROLE
@@ -2825,6 +2867,8 @@ Analyze the current message and user's stored memories to:
 
 ### RECENT MEMORY ENTRIES (Temporal Context)
 {chr(10).join([f"- {entry.get('category', 'unknown')}: {entry.get('data', {})}" for entry in recent_memories]) if recent_memories else "No recent entries"}
+
+{personality_context_text}
 
 ### CONTEXTUAL ANALYSIS CRITERIA
 **Message Intent Detection:**
@@ -2955,36 +2999,35 @@ Analyze the current message and user's stored memories to:
 
         try:
             user_identifier = person.person_id
-            user_memories = load_user_memories(user_identifier, platform_prefix)
+            user_memories = load_user_memories(user_identifier, platform_prefix) or {}
+            personality_profile = load_personality_profile()
             
-            if not user_memories:
-                return None, "No memory file exists for this user"
-            
-            has_any_memories = False
+            has_any_context = bool(personality_profile)
             
             standard_categories = ["personal_info", "preferences", "professional", "relationships"]
             for category in standard_categories:
                 if user_memories.get(category):
-                    has_any_memories = True
+                    has_any_context = True
                     break
             
-            if not has_any_memories:
+            if not has_any_context:
                 excluded_keys = {"user_id", "platform", "created_at", "last_updated", "memories"}
                 for key, value in user_memories.items():
                     if key not in excluded_keys and key not in standard_categories and isinstance(value, dict) and value:
-                        has_any_memories = True
+                        has_any_context = True
                         break
             
-            if not has_any_memories and user_memories.get("memories"):
-                has_any_memories = len(user_memories["memories"]) > 0
+            if not has_any_context and user_memories.get("memories"):
+                has_any_context = len(user_memories["memories"]) > 0
             
-            if not has_any_memories:
-                return None, "User memory file exists but contains no stored information"
+            if not has_any_context:
+                return None, "No user memory or personality profile context available"
             
             prompt_content = construct_enhanced_memory_retrieval_prompt(
                 target_message,
                 person,
                 user_memories,
+                personality_profile,
                 extra_context
             )
             

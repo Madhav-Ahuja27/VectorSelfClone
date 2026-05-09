@@ -1,4 +1,3 @@
-from mods.llm import AIRouter
 from mods.config import ProfileManager, SettingsManager
 from mods.utils.logging_config import LoggingConfig
 from pathlib import Path
@@ -12,14 +11,38 @@ dotenv.load_dotenv(
 platform_type = os.getenv("PLATFORM", "discord").lower()
 print(f"🌐 Selected platform: {platform_type}")
 
-if platform_type == "discord":
-    platform_token = os.getenv("DISCORD_SELF_TOKEN")
-    if not platform_token:
-        print("Error: DISCORD_SELF_TOKEN environment variable not found!")
+profile_name = os.getenv("AI_PROFILE", "default")
+profile_manager = ProfileManager(profiles_directory=Path.cwd())
+
+if platform_type == "assessment":
+    from mods.assessment.assessment import AssessmentModule
+
+    assessment = AssessmentModule(profile_manager)
+    assessment_profile_name = os.getenv("ASSESSMENT_PROFILE_NAME", profile_name or "assessment_profile")
+    assessment_user_info = {
+        "username": os.getenv("ASSESSMENT_USER_NAME", assessment_profile_name),
+        "name": os.getenv("ASSESSMENT_USER_FULLNAME", assessment_profile_name),
+        "sex": os.getenv("ASSESSMENT_USER_SEX", "N"),
+        "age": int(os.getenv("ASSESSMENT_USER_AGE", "30")),
+        "occupation": os.getenv("ASSESSMENT_USER_OCCUPATION", ""),
+        "interests": os.getenv("ASSESSMENT_USER_INTERESTS", ""),
+    }
+    assessment_answers_file = os.getenv("ASSESSMENT_ANSWERS_FILE")
+    assessment_shuffle = os.getenv("ASSESSMENT_SHUFFLE", "false").lower() in ("1", "true", "yes", "y")
+
+    try:
+        assessment.run(
+            profile_name=assessment_profile_name,
+            user_info=assessment_user_info,
+            answers_file=assessment_answers_file,
+            shuffle=assessment_shuffle,
+        )
+        print("✅ Assessment completed successfully. Generated personality files are available in the project root.")
+    except Exception as e:
+        print(f"❌ Assessment error: {e}")
         exit(1)
-else:
-    print(f"Error: Unsupported platform '{platform_type}'. Currently supported: discord")
-    exit(1)
+
+    exit(0)
 
 provider = os.getenv("AI_PROVIDER")
 if not provider:
@@ -36,8 +59,7 @@ if not model:
     print("Error: AI_MODEL environment variable not found!")
     exit(1)
 
-profile_name = os.getenv("AI_PROFILE", "default")
-
+from mods.llm import AIRouter
 llm = AIRouter().get_provider(provider, api_key, model)
 
 print("📝 Initializing logging system...")
