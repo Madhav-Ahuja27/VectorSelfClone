@@ -124,7 +124,7 @@
                         },
                         {
                             "id_question": 21,
-                            "id_select": 3
+                            "id_select": 5
                         },
                         {
                             "id_question": 22,
@@ -527,7 +527,7 @@
                 "summary": {
                     "model": "IPIP-NEO",
                     "question_set": 120,
-                    "generated_at": "2026-05-09T17:38:17.145578+00:00"
+                    "generated_at": "2026-05-09T17:04:27.643305+00:00"
                 },
                 "big5_scores": {
                     "openness": {
@@ -700,8 +700,8 @@
                             },
                             {
                                 "trait": 5,
-                                "immoderation": 48.1804752623172,
-                                "score": "average"
+                                "immoderation": 68.0270056015782,
+                                "score": "high"
                             },
                             {
                                 "trait": 6,

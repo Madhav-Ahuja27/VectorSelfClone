@@ -4,7 +4,7 @@
   "title": "IPIP-NEO 120 Personality Profile",
   "summary": "Personality profile generated from a local IPIP-NEO 120 assessment for assessment_user_assessment.",
   "source": "personality_profile.json",
-  "created_at": "2026-05-09T17:04:27.668861+00:00",
+  "created_at": "2026-05-09T17:38:17.174696+00:00",
   "metadata": {
     "username": "assessment_user",
     "big5_scores": {
@@ -178,8 +178,8 @@
           },
           {
             "trait": 5,
-            "immoderation": 68.0270056015782,
-            "score": "high"
+            "immoderation": 48.1804752623172,
+            "score": "average"
           },
           {
             "trait": 6,

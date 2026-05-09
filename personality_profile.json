@@ -1,6 +1,6 @@
 {
   "profile_name": "assessment_user_assessment",
-  "generated_at": "2026-05-09T17:04:27.654815+00:00",
+  "generated_at": "2026-05-09T17:38:17.163666+00:00",
   "assessment_model": "IPIP-NEO",
   "question_set": 120,
   "user_info": {
@@ -10,7 +10,7 @@
     "gender": "M"
   },
   "result": {
-    "id": "1ad57c42-d2a9-454b-ae85-e7dbe0561e93",
+    "id": "f7a98556-4776-40c4-924f-061861d161dd",
     "theory": "Big 5 Personality Traits",
     "model": "IPIP-NEO",
     "question": 120,
@@ -174,7 +174,7 @@
           },
           {
             "neuroticism": {
-              "N": 64.97135872535557,
+              "N": 60.785438529966086,
               "traits": [
                 {
                   "trait": 1,
@@ -198,8 +198,8 @@
                 },
                 {
                   "trait": 5,
-                  "immoderation": 68.0270056015782,
-                  "score": "high"
+                  "immoderation": 48.1804752623172,
+                  "score": "average"
                 },
                 {
                   "trait": 6,
@@ -295,7 +295,7 @@
             },
             {
               "id_question": 21,
-              "id_select": 5
+              "id_select": 3
             },
             {
               "id_question": 22,
@@ -777,7 +777,7 @@
             },
             {
               "id_question": 21,
-              "id_select": 5
+              "id_select": 3
             },
             {
               "id_question": 22,
@@ -1181,7 +1181,7 @@
     },
     "library": "five-factor-e",
     "version": "1.13.1",
-    "date": "2026-05-09 22:34:27"
+    "date": "2026-05-09 23:08:17"
   },
   "profile": {
     "required": {
@@ -1307,7 +1307,7 @@
           },
           {
             "id_question": 21,
-            "id_select": 5
+            "id_select": 3
           },
           {
             "id_question": 22,
@@ -1710,7 +1710,7 @@
       "summary": {
         "model": "IPIP-NEO",
         "question_set": 120,
-        "generated_at": "2026-05-09T17:04:27.643305+00:00"
+        "generated_at": "2026-05-09T17:38:17.145578+00:00"
       },
       "big5_scores": {
         "openness": {
@@ -1883,8 +1883,8 @@
             },
             {
               "trait": 5,
-              "immoderation": 68.0270056015782,
-              "score": "high"
+              "immoderation": 48.1804752623172,
+              "score": "average"
             },
             {
               "trait": 6,
